@@ -5,6 +5,6 @@ b = int(input())
 c = int(input())
 
 value = [a,b,c]
-value.sort
+value.sort(reverse=True)
 
 print(value)
