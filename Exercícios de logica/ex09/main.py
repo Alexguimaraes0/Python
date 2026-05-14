@@ -21,6 +21,9 @@ Tabela Condições IMC
 peso = float(input('Digite seu peso:'))
 altura = float(input('Digite sua altura'))
 
+'round = usado quando não queremos uma dizima periodica'
+'pow = Calcula base elevado a expoente. Equivalente a base ** expoente, mas otimizado para grandes números.'
+
 imc = round((peso / pow(altura,2)),2)
 
 if( imc < 18.5):
