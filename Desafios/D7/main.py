@@ -2,12 +2,11 @@
 #CONSIDRE 1US$ = R$ 3,27
 import time
 
-valor = float(input('Quantos R$ você tem?:'))
-
-print(valor)
+valor = float(input('Quantos R$ você tem?: R$'))
+dolar = valor / 3.27
 
 print('Convertendo...')
 
 time.sleep(2)
 
-print(round(valor / 3.27),)
+print(f'Com R${valor:.2f} você pode comprar U${dolar:.2f} dolares')

@@ -3,6 +3,8 @@
 num = int(input('Que número você deseja saber?:'))
 t = 0
 
+'!= 10 = Enquanto tal valor n for 10 não vai parar '
+
 while (t != 10):
     t = t + 1
 

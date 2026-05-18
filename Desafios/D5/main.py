@@ -9,7 +9,7 @@ time.sleep(2)
 
 c = m * 100
 
-print('Você correu {} Centimetros!'.format(c))
+print('Você correu {:.0f} Centimetros!'.format(c))
 
 time.sleep(0.5)
 
@@ -19,4 +19,4 @@ time.sleep(2)
 
 mm = m * 1000
 
-print('Você correu {} Milimetros!'.format(mm))
+print('Você correu {:.0f} Milimetros!'.format(mm))
