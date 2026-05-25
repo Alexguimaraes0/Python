@@ -2,9 +2,9 @@
 #COMPRIMENTO DA HIPOTENUSA
 import math
 
-num1 = float(input('Digite os catetos'))
-num2 = float(input('Digite os catetos'))
+num1 = float(input('Digite os cateto oposto:'))
+num2 = float(input('Digite os cateto adjacente:'))
 
 soma = math.hypot(num1, num2)
 
-print(math.trunc(soma))
+print('A hipotenusa vai medir:{:.2f}'.format(soma))
