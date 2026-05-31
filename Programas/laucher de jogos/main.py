@@ -1,11 +1,29 @@
 import os 
 import emoji
 import time
+import winsound
 
-os.system('cls')
+os.system('cls') 
 
 print('=' * 20)
 print('-Meu Menu-')
+
+def abrir_discord():
+    winsound.PlaySound(
+    'discord-notification.wav',
+    winsound.SND_FILENAME
+)
+    os.startfile(r'C:\Users\alex0\AppData\Local\Discord\app-1.0.9239\Discord.exe')
+
+def abrir_steam():
+    os.startfile(r'C:\Program Files (x86)\Steam\steam.exe')
+
+def abrir_lol():
+    os.startfile(r'C:\Riot Games\League of Legends\Game\League of Legends.exe')
+
+def abrir_navegador():
+    os.startfile(r'C:\Program Files\Zen Browser\zen.exe')
+
 
 while True:
 
@@ -19,16 +37,16 @@ while True:
     escolha = int(input('Escolha:'))
 
     if escolha == 1:
-        os.startfile(r'C:\Users\alex0\AppData\Local\Discord\app-1.0.9238\Discord.exe')
+        abrir_discord()
     
     elif escolha == 2:
-        os.startfile(r'C:\Program Files (x86)\Steam\steam.exe')
+        abrir_steam()
 
     elif escolha == 3:
-        os.startfile(r'C:\Riot Games\League of Legends\Game\League of Legends.exe')
+        abrir_lol()
 
     elif escolha == 4:
-        os.startfile(r'C:\Program Files\Zen Browser\zen.exe')
+        abrir_navegador()
 
     elif escolha == 0:
         print('Fechando o Laucher...')
@@ -37,3 +55,5 @@ while True:
             
     else:
         print('Resposta invalida!')
+
+        
