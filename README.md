@@ -1,27 +1,92 @@
-Python Studies
+# 🐍 Python Studies
 
-Este repositório reúne meus estudos de Python, exercícios e desafios realizados durante o processo de aprendizagem.
+<div align="center">
 
-Contents
-Logic exercises
-Python challenges
-Classroom exercises
-Small programs and projects
-Problem solving
-Fundamental Python concepts
-Objective
+### Learning Python one step at a time 🚀
 
-O objetivo deste repositório é registrar minha evolução em Python, praticar conceitos fundamentais da linguagem e desenvolver habilidades de resolução de problemas.
+Repository dedicated to my Python studies, challenges, exercises, and projects.
 
-Organization
-Exercicios de Aula/ → Exercícios realizados durante as aulas para reforçar os conceitos aprendidos.
-Exercicios de Logica/ → Problemas focados em lógica de programação e raciocínio lógico.
-Desafios/ → Programming challenges para praticar e testar conhecimentos.
-Programas/ → Pequenos programas criados para aplicar os conceitos estudados.
-Technologies
-Python 3
-Status
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Status](https://img.shields.io/badge/Status-Learning-success)
+![Focus](https://img.shields.io/badge/Focus-Programming%20Logic-orange)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)
 
-📚 Work in Progress
+</div>
 
-Este repositório é atualizado conforme avanço nos estudos e aprendo novos conceitos.
+---
+
+## 👨‍💻 About This Repository
+
+This repository was created to document my learning journey in Python.
+
+Here you'll find:
+
+* 📘 Classroom exercises
+* 🧠 Logic exercises
+* 🎯 Programming challenges
+* 💻 Small programs and projects
+* 🚀 Experiments and practice code
+
+My goal is to improve my programming skills and build a solid foundation in software development.
+
+---
+
+## 📂 Repository Structure
+
+```text
+📁 Python Studies
+├── 📘 Exercicios de Aula
+├── 🧠 Exercicios de Logica
+├── 🎯 Desafios
+└── 💻 Programas
+```
+
+---
+
+## 🛠️ Technologies
+
+Currently studying:
+
+* Python 3
+* Programming Logic
+* Data Structures
+* Problem Solving
+* Algorithms Fundamentals
+
+---
+
+## 🎯 Current Goals
+
+* [x] Learn variables and data types
+* [x] Learn conditionals (`if`, `else`, `elif`)
+* [x] Learn loops (`while`, `for`)
+* [x] Learn lists
+* [ ] Learn functions
+* [ ] Learn object-oriented programming
+* [ ] Build larger projects
+
+---
+
+## 📈 GitHub Stats
+
+> Replace `YOUR_USERNAME` with your GitHub username.
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME\&show_icons=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME\&layout=compact)
+
+---
+
+## 📚 Learning Philosophy
+
+> "The best way to learn programming is by writing code."
+
+Every exercise, challenge, and project in this repository represents another step in my learning journey.
+
+---
+
+## ⭐ Progress
+
+This repository is continuously updated as I learn new concepts and complete new exercises.
+
+Thanks for visiting! 🚀
