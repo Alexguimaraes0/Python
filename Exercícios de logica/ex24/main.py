@@ -15,11 +15,6 @@ contador = 1
 
 alunos = []
 soma_notas = 0
-maior_nota = 0
-maior_nome = 0
-menor_nota = 0
-menor_nome = 0
-
 
 while contador <= quantidade_alunos:
     nome = input('Nome: ')
@@ -27,24 +22,30 @@ while contador <= quantidade_alunos:
 
     aluno = [nome, nota]
     alunos.append(aluno)
-    soma_notas = soma_notas + nota
-    
 
-    contador +=1
+    soma_notas += nota
 
-    if nota > maior_nota:
+    if contador == 1:
         maior_nota = nota
-        maior_nome = nome
-
-    if nota < maior_nota:
         menor_nota = nota
+        maior_nome = nome
         menor_nome = nome
+    else:
+        if nota > maior_nota:
+            maior_nota = nota
+            maior_nome = nome
+
+        if nota < menor_nota:
+            menor_nota = nota
+            menor_nome = nome
+
+    contador += 1
 
 print(alunos)
 
 print('=' * 20)
 
-print('Cadastros:{}'.format(quantidade_alunos))
-print('Médias:{:.2f}'.format(soma_notas / quantidade_alunos))
+print('Cadastros: {}'.format(quantidade_alunos))
+print('Média: {:.2f}'.format(soma_notas / quantidade_alunos))
 print('O aluno com a maior nota {} tirou {:.1f}'.format(maior_nome, maior_nota))
-print('O aluno com a menor nota {} tirou {}'.format(menor_nome, menor_nota))
+print('O aluno com a menor nota {} tirou {:.1f}'.format(menor_nome, menor_nota))
