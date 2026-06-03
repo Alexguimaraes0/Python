@@ -69,7 +69,7 @@ Currently studying:
 
 ## 📈 GitHub Stats
 
-> Replace `YOUR_USERNAME` with your GitHub username.
+> Replace `Alexguimaraes0` with your GitHub username.
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME\&show_icons=true)
 
