@@ -65,15 +65,6 @@ Currently studying:
 * [ ] Learn object-oriented programming
 * [ ] Build larger projects
 
----
-
-## 📈 GitHub Stats
-
-> Replace `Alexguimaraes0` with your GitHub username.
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_USERNAME\&show_icons=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_USERNAME\&layout=compact)
 
 ---
 
