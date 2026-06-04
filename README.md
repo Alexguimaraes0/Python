@@ -65,7 +65,6 @@ Currently studying:
 * [ ] Learn object-oriented programming
 * [ ] Build larger projects
 
----
 
 ---
 
