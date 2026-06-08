@@ -9,7 +9,10 @@ years = int(input('Em quantos anos você vai pagar? '))
 
 months = years * 12
 installment = house / months
-limit = salary * 0.30
+limit = salary * 0.30   
+
+print('Para pagar uma casa de R${:.2f} em {} anos '.format(house, years), end='')
+print(' a prestração sera de R${:.2f} anos'.format(installment))
 
 if installment > limit:
     print('Emprestimo Negado!')
