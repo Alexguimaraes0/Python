@@ -5,4 +5,4 @@ for num in range(1,7):
 
     if (sum % 2) == 0:
         contador += sum
-print(contador)
+print(f'Soma dos pares: {contador}')
