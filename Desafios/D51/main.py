@@ -11,9 +11,9 @@ contador_mulher = 0
 quantidade = 4
 
 for c in range(quantidade):
-    nome = input('Digite seu Nome: ')
+    nome = input('Digite seu Nome: ').strip()
     idade = int(input('Digite sua Idade: '))
-    sexo = input('Digite seu gênero: ').strip.lower()
+    sexo = input('Digite seu gênero: ').strip().lower()
     soma_idade += idade
     if sexo == 'homem':
         if idade > maior_idade:

@@ -5,8 +5,8 @@ pessoas = []
 pessoasa = 0
 pessoasb = 0
 
-for c in range(7):
-    pessoa = int(input('Ano de Nascimento: '))
+for c in range(1, 8):
+    pessoa = int(input('Ano de Nascimento da {}ª: '.format(c)))
     idade = atual.year - pessoa
     pessoas.append(idade)
 
