@@ -15,8 +15,9 @@ if termos == 0:
     print('Fim!')
 
 while termos > 0 :
-    while cont < 10:
-        print((term1 + termos) + cont * razao)
-    
+    i = 0
+    while i < termos:
+        print(term1 + cont * razao)
+        cont += 1
+        i += 1
     termos = int(input('Quantos termos vc deseja a mais? '))
-    cont += 1
