@@ -3,6 +3,8 @@
 r = ''
 while r != "M" or "F":
     r = input('Digite "M" para (masculino) "F" para (feminino): ').upper()
+    if r != "M" or "F":
+        print('Dados invalidos, tente novamente.')
     if r == 'M':
         print('Sexo: Masculino')
         break
