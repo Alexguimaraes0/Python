@@ -24,26 +24,26 @@ while True:
 
     if escolha == 1:
         print('A soma de {} + {} é: {}'.format(num1, num2, num1 + num2))
-        
+        time.sleep(2)
     
     elif escolha == 2:
         print('A multiplicação de {} X {} é: {}'.format(num1, num2, num1 * num2))
-        
+        time.sleep(2)
+
     elif escolha == 3:
         if num1 > num2:
             numero_maior = num1
         if num2 > num1:
             numero_maior = num2
             print('O maior número entre eles é o {}'.format(numero_maior))
-            
+            time.sleep(2)
+
     elif escolha == 4:
         num1 = int(input('Digite o primeiro número: '))
         num2 = int(input('Digite o segundo número: '))
+        
     elif escolha == 0:
         print('Fechando o Menu...')
         time.sleep(0.8)
         break
-    
-
-
     

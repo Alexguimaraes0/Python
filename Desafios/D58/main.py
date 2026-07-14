@@ -14,3 +14,4 @@ while cont < n:
     anterior = atual
     atual = valor
     cont += 1
+print("FIM!")
