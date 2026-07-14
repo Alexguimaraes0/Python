@@ -19,7 +19,7 @@ while continuar == sim:
         print(f'Média: {soma / cont:.2f}')
     if num > maior:
         maior = num
-        print('Maior número: {}'.format(maior))
     if num < menor:
         menor = num
-        print('Menor número: {}'.format(menor))
+print('Maior número: {}'.format(maior))
+print('Menor número: {}'.format(menor))

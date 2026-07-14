@@ -10,4 +10,4 @@ while num != 999:
     quant += 1
     soma += num
 print(f'Você digitou {quant} números.')
-print(f'A soma entre eles tem o valor de: {soma}')
+print(f'A soma entre eles tem o valor de: {soma - 999}')
