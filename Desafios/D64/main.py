@@ -18,7 +18,7 @@ while True:
     sexo = input("Sexo [M/F] ").strip().upper()
     while sexo not in "mMfF":
         sexo = input("Sexo [M/F] ").strip().upper()
-    if idade >= 18:
+    if idade > 18:
         pessoas18 += 1
     if sexo == "M":
         homens += 1
