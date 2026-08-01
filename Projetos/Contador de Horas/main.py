@@ -3,16 +3,27 @@ import time
 atividades = []
 
 while True:
+    start = input("Aperte ENTER para começar...")
+
+    inicio = time.time()
+    end = input("Pressione Enter quando terminar...")
+    fim = time.time()
+    tempo = fim - inicio
+    print(tempo)
+    print('=~' * 30)
 
     print("1 - Registrar atividade\n2 - Ver resumo do dia\n0- Sair")
     escolha = int(input("oque deseja? "))
+
     if escolha == 1:
         atividade = input("Nome da Atividade: ")
         atividades.append(atividade)
+
     elif escolha == 2:
         if atividades == []:
             print("Nenhuma atividade registrada")
         print(atividades)
+
     elif escolha == 0:
         print("Encerrando...")
         time.sleep(1)
