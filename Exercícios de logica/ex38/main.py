@@ -46,3 +46,4 @@ while valor_digitado != 0:
     
     if valor_digitado == 0:
         break
+
