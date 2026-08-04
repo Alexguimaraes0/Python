@@ -1,6 +1,7 @@
 import time
 
 atividades = []
+atividade_atual = []
 tempo_gasto = 0
 escolha = ""
 
@@ -9,8 +10,9 @@ while True:
 
     if atividades == []:
 
-        atividade = input("Registre sua primeira atividade: ") 
-        atividades.append(atividade)  
+        atividade = input("Registre sua primeira atividade: ")
+        atividade = atividade_atual
+        atividades.append(atividade)
         time.sleep(0.3)
 
 
@@ -24,6 +26,7 @@ while True:
         if escolha == 1: 
             atividade = input("Nome da Atividade: ")
             atividades.append(atividade)
+            atividade = atividade_atual
 
         elif escolha == 2:
             if atividades == []:
@@ -37,7 +40,8 @@ while True:
                 print("Nenhuma atividade registrada")
             print("Atividades registradas:")
             for indice, atividade in enumerate(atividades):
-                print(f"{(indice + 1)} -> {atividade}")
+                print(f"{(indice + 1)} -> {atividades}")
+            
             
         elif escolha == 0:
             print("Encerrando...")
