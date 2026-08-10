@@ -8,6 +8,5 @@ num_extenso = ("zero", "Um", "Dois", "Três", "Quatro", "Cinco", "Seis", "Sete",
 if user > 20 or user < 0:
     user = int(input("Tente novamente. Digite um número de 0 a 20"))
 
-for pos , num in enumerate(num_extenso):
-    if user == pos:
-        print(f"Você digitou o Número {num}")
+
+print(f"Você digitou o Número {num_extenso[user]}")
