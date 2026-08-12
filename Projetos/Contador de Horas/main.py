@@ -2,7 +2,7 @@ import time
 
 atividades = []
 atividade_atual = []
-tempo_gasto = 0
+tempos = []
 escolha = ""
 
 
@@ -32,8 +32,8 @@ while True:
             if atividades == []:
                 print("Nenhuma atividade registrada")
             if atividades != []:
-                for atividade in atividades:
-                    print(f"{atividade} -> {atv_tempo[1]}")
+                for atividade, tempo in tempos:
+                    print(f"{atividade} -> {tempo:.2}")
 
         elif escolha == 3:
             if atividades == []:
@@ -63,4 +63,4 @@ while True:
                 end = input("Pressione Enter quando terminar...")
                 fim = time.time()
                 tempo = fim - inicio
-                atv_tempo = atividade_atual, tempo
+                tempos.append((atividade_atual, tempo))
