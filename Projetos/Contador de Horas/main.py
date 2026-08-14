@@ -33,8 +33,11 @@ while True:
             if atividades == []:
                 print("Nenhuma atividade registrada")
             if atividades != []:
-                for atividade, tempo in tempo:
-                    print(f"{atividade} -> total: {tempo_total[atividade]:.2f} sessão: {tempo:.2f}")
+                for atividade, tempo in tempo_total.items():
+                    print(f"{atividade} -> total: {tempo_total[atividade]:.2f}")
+                    """ for atividade, tempo in tempos:
+                        if atividade == atividade:
+                            print(f"    sessão: {tempo:.2f}") """
                 
 
         elif escolha == 3:
