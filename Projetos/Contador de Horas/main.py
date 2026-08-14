@@ -3,6 +3,7 @@ import time
 atividades = []
 atividade_atual = []
 tempos = []
+tempo_total = {}
 escolha = ""
 
 
@@ -32,8 +33,9 @@ while True:
             if atividades == []:
                 print("Nenhuma atividade registrada")
             if atividades != []:
-                for atividade, tempo in tempos:
-                    print(f"{atividade} -> {tempo:.2}")
+                for atividade, tempo in tempo:
+                    print(f"{atividade} -> total: {tempo_total[atividade]:.2f} sessão: {tempo:.2f}")
+                
 
         elif escolha == 3:
             if atividades == []:
@@ -64,3 +66,8 @@ while True:
                 fim = time.time()
                 tempo = fim - inicio
                 tempos.append((atividade_atual, tempo))
+
+                if atividade_atual in tempo_total:
+                    tempo_total[atividade_atual] = tempo_total[atividade_atual] + tempo
+                else:
+                    tempo_total[atividade_atual] = tempo
