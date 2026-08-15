@@ -17,7 +17,7 @@ while True:
         time.sleep(0.3)
 
 
-        print("1 - Registrar atividades\n2 - Ver resumo do dia\n3 - Escolher atividade\n0 - Sair")
+        print("1 - Registrar atividades\n2 - Ver resumo do dia\n3 - Escolher atividade\n0 - Sair\nPara inicar contagem pressione 4")
 
 
     else:
@@ -35,6 +35,8 @@ while True:
             if atividades != []:
                 for atividade, tempo in tempo_total.items():
                     print(f"{atividade} -> total: {tempo_total[atividade]:.2f}")
+
+                    #Mostrar o tempo de sessão
                     """ for atividade, tempo in tempos:
                         if atividade == atividade:
                             print(f"    sessão: {tempo:.2f}") """
