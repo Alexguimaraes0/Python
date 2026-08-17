@@ -6,7 +6,6 @@ tempos = []
 tempo_total = {}
 escolha = ""
 
-
 while True:
 
     if atividades == []:
@@ -16,9 +15,7 @@ while True:
         atividades.append(atividade)
         time.sleep(0.3)
 
-
         print("1 - Registrar atividades\n2 - Ver resumo do dia\n3 - Escolher atividade\n0 - Sair\nPara inicar contagem pressione 4")
-
 
     else:
 
@@ -40,8 +37,7 @@ while True:
                     """ for atividade, tempo in tempos:
                         if atividade == atividade:
                             print(f"    sessão: {tempo:.2f}") """
-                
-
+                    
         elif escolha == 3:
             if atividades == []:
                 print("Nenhuma atividade registrada")
@@ -53,14 +49,13 @@ while True:
             atv = atividades[atv]
             atividade_atual = atv
             
-            
         elif escolha == 0:
             print("Encerrando...")
             time.sleep(1)
             break
 
         print('=~' * 30)
-        
+
         if atividades != []:
             print("Para inicar contagem pressione 4 ")
             if escolha == 4:
