@@ -31,4 +31,3 @@ print(f"Total de passageiros com necessidade {len(necessitados)}")
 for nome, necessidade in necessitados:
     print(f"- {nome}: {necessidade}")
 
-    for qtd_classe1
