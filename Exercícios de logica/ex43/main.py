@@ -24,5 +24,11 @@ for i in range(qtd_classe3):
     necessidade = input("Necessidade especial (ou nenhuma): ").strip().upper()
     passageiros_classe3.append((nome, necessidade))
 
-necessitados = [p for p in assentos_especias if p[1] != "NENHUMA"]
 assentos_especias = passageiros_classe1 + passageiros_classe2 + passageiros_classe3
+necessitados = [p for p in assentos_especias if p[1] != "NENHUMA"]
+
+print(f"Total de passageiros com necessidade {len(necessitados)}")
+for nome, necessidade in necessitados:
+    print(f"- {nome}: {necessidade}")
+
+    for qtd_classe1
