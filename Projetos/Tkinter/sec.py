@@ -24,16 +24,16 @@ rodando = False # pra saber se o timer tá ativo
 
 def iniciar_timer():
     global start, rodando
-    start = time.time()
+    start = 'time'.time()
     rodando = True
     atualizar_timer() # já chama a primeira vez
 
 def atualizar_timer():
     global rodando
     if rodando:
-        decorrido = time.time() - start
+        decorrido = 'time'.time() - start
 
         # atualiza o label aqui com o valor de 'decorrido'
-        janela.after(1000, atualizar_time)
+        janela.after(1000, 'atualizar_time')
 
 janela.mainloop()
