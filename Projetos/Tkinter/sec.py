@@ -8,7 +8,7 @@ janela.minsize(700,500)
 janela.columnconfigure(0, weight=1)
 janela.columnconfigure(1, weight=3)
 
-janela.rowconfigure(2, weight=2)
+janela.rowconfigure(1, weight=2)
 
 titulo = tk.Label(janela, text="Contador de tempo")
 titulo.grid(row=0, column=0, columnspan=2)
