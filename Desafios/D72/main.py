@@ -9,4 +9,3 @@ vogais = 'aeiou'
 for c in palavras:
     vogais_encontradas = [letra for letra in c if letra in vogais]
     print(f"na palavra {c.upper()} temos {' '.join(vogais_encontradas)}")
-   
