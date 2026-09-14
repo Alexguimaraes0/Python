@@ -15,7 +15,7 @@ class Cronometro:
         sidebar = tk.Frame(janela, bg="#666660")
         sidebar.grid(row=1, column=0, sticky='nsew')
 
-        self.acentral = tk.Frame(janela, bg="#020202")
+        self.acentral = tk.Frame(janela, bg="#FFFFFF")
         self.acentral.grid(row=1, column=1, sticky='nsew')
  
         self.interface()
