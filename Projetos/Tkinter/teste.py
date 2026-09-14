@@ -17,13 +17,13 @@ class Cronometro:
 
         self.acentral = tk.Frame(janela, bg="#020202")
         self.acentral.grid(row=1, column=1, sticky='nsew')
-
+ 
         self.interface()
 
     def interface(self):
         self.acentral.columnconfigure(0, weight=1)
         self.acentral.rowconfigure(0, weight=1)
-        container = Frame(self.acentral, bg="#464646", width=700, height=500, highlightthickness=2.5, highlightbackground="#ffffff")
+        container = Frame(self.acentral, bg="#464646", width=700, height=500, highlightthickness=2.5, highlightbackground="#c5c5c5")
         container.grid(row=0, column=0)
         
 
