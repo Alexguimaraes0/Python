@@ -18,4 +18,3 @@ valor_min = min(valor_total)
 
 print(f"O maior valor foi o {valor_max} na posição {valor_total.index(valor_max) + 1}")
 print(f"O menor valor foi o {valor_min} na posição {valor_total.index(valor_min) + 1}")
- 
