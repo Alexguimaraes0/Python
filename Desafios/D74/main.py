@@ -1,12 +1,21 @@
 """ Crie um programa onde o usuário possa digitar vários valores numéricos e cadastre-os em uma lista. Caso o número já exista na lista, ele não será adicionado.
 No final, serão exibidos todos os valores digitados, em ordem crescente. """
 
-numeros = 0
+numeros = []
 
 while True:
 
     num = int(input("Digite um número: "))
-    numeros += num
-    pergunta = input("Quer continuar? [S/N] ").split().upper()
+    if num in numeros:
+        print("Este número ja está adicionado a lista, item não contabilizado...")
+
+    else:
+        numeros.append(num)
+        print("Valor adicionado com sucesso...")
+
+    pergunta = input("Quer continuar? [S/N] ").strip().upper()
+
+
     if pergunta == "N":
-        print(sorted(numeros))
+        print(f'{sorted(numeros)}')
+        break
